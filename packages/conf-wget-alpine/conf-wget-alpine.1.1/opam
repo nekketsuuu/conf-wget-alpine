@@ -1,0 +1,24 @@
+opam-version: "1.2"
+maintainer: "nekketsuuu@gmail.com"
+authors: [
+  "nekketsuuu@gmail.com"
+  "hniksic@xemacs.org"
+]
+homepage: "https://www.gnu.org/software/wget/"
+bug-reports: "https://github.com/nekketsuuu/conf-wget-alpine/issues"
+dev-repo: "https://github.com/nekketsuuu/conf-wget-alpine.git"
+license: "GPL-2+"
+build: [["which" "wget"]]
+depends: [
+  "conf-which" {build}
+]
+depexts: [
+  [["alpine"] ["wget"]]
+  [["debian"] ["wget"]]
+  [["ubuntu"] ["wget"]]
+  [["fedora"] ["wget"]]
+  [["archlinux"] ["wget"]]
+  [["nixpkgs"] ["wget"]]
+  [["gentoo"] ["net-misc/wget"]]
+  [["osx" "homebrew"] ["wget"]]
+]
