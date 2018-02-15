@@ -1,9 +1,6 @@
 opam-version: "1.2"
 maintainer: "nekketsuuu@gmail.com"
-authors: [
-  "nekketsuuu@gmail.com"
-  "hniksic@xemacs.org"
-]
+authors: "hniksic@xemacs.org"
 homepage: "https://www.gnu.org/software/wget/"
 bug-reports: "https://github.com/nekketsuuu/conf-wget-alpine/issues"
 dev-repo: "https://github.com/nekketsuuu/conf-wget-alpine.git"
